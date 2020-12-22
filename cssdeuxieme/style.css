@@ -580,4 +580,8 @@ only screen and (max-width: 760px),
   #box-client {
     margin-top: 55%;
   }
+  .mail-resp {
+    font-size: 8px;
+    font-weight: bold;
+  }
 }

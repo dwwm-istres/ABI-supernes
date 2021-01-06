@@ -585,3 +585,13 @@ only screen and (max-width: 760px),
 #box-edit {
   margin-top: 15%;
 }
+
+@media screen and (max-width: 375px) {
+  #partner-content {
+    margin-top: 25%;
+  }
+
+  body {
+    margin-top: 25%;
+  }
+}

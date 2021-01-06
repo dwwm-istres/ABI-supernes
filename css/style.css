@@ -134,10 +134,12 @@ nav .item-nav a {
 #btn-connect {
   background-color: #333;
   border: 2px solid #333;
-  margin-top: 10px;
-  position: relative;
-  margin-left: 1700px;
+  /* margin-top: 10px; */
+  position: absolute;
+  /* margin-left: 1700px; */
   z-index: 600;
+  top: 10px;
+  right: 125px;
 }
 
 @media screen and (max-width: 375px) {
@@ -399,6 +401,14 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 10px;
 }
+
+@media screen and (max-width: 375px) {
+  #contact-content {
+    width: 300px;
+  }
+}
+
+
 
 /* Create two columns that float next to eachother */
 #colum-contact {
